@@ -6,6 +6,8 @@
   list-style-type: none;
   text-decoration: none;
   font-family: "Outfit", serif;
+  scrollbar-width: thin;
+  scrollbar-color: #8750f7 #2a1454;
 }
 
 section {
@@ -26,10 +28,19 @@ header {
   padding: 25px 12%;
 }
 
-.logo img {
-  max-width: 100%;
-  width: 160px;
-  height: auto;
+.logo {
+  width: 180px;
+}
+.logo span {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.logo .logo-text {
+  color: gray;
+  letter-spacing: 0.3px;
+  font-weight: 600;
 }
 
 .navbar {
@@ -644,12 +655,6 @@ textarea:valid {
   padding: 40px 0px;
 }
 
-.main-footer img {
-  max-width: 100%;
-  width: 140px;
-  margin-bottom: 20px;
-}
-
 .footer-li a {
   color: #fff;
   font-size: 18px;
@@ -797,9 +802,6 @@ textarea:valid {
     padding: 0 5px;
   }
 
-  .logo img {
-    width: 120px;
-  }
   .nav-btn {
     padding: 12px 20px;
   }
