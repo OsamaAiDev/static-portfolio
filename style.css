@@ -735,7 +735,11 @@ textarea:valid {
     order: 2;
   }
   form .cont-input input {
-    width: 62%;
+    width: 80%;
+    transform: 0.5s;
+  }
+  form textarea {
+    width: 80%;
     transform: 0.5s;
   }
   #menu-icon {
@@ -762,7 +766,7 @@ textarea:valid {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .home-text h1 {
     font-size: 40px;
     line-height: 1.2;
@@ -802,7 +806,15 @@ textarea:valid {
     padding: 0 5px;
   }
 
-  .nav-btn {
-    padding: 12px 20px;
+  .header-btn .nav-btn {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+  .header-btn .nav-btn i {
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 12px;
+    width: 140px;
   }
 }
